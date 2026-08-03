@@ -18,12 +18,12 @@
       "screenshots": [],
       "versions": [
         {
-          "version": "1.3",
-          "buildVersion": "13",
+          "version": "1.4",
+          "buildVersion": "14",
           "date": "2026-08-03",
           "localizedDescription": "Rewritten dashboard transport, now entirely native.\n\n• Finds the dashboard reliably: the address is read from the Bonjour record rather than a hostname that does not resolve.\n• Fixes the greeting the dashboard reads, down to the byte.\n• A dashboard that answers but never connects back is now reported instead of looking connected.\n• The log says what the dashboard asked for and what it was actually sent, so a failure can be diagnosed from one file.\n• Optional Stadia Maps routing key in Settings.",
-          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.3/MOTO-HUB-1.3.ipa",
-          "size": 6350496,
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.4/MOTO-HUB-1.4.ipa",
+          "size": 6338415,
           "minOSVersion": "17.0"
         }
       ],
