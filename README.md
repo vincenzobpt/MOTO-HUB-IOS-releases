@@ -15,12 +15,17 @@ data, drawn by the phone and streamed to the dashboard:
 
 ![The ride dashboard on a motorcycle TFT](screenshots/tft-dashboard.png)
 
-On the phone: the live session, the route choice, and settings.
+Hide a side panel and the map takes the space:
+
+![The same dashboard with the right panel hidden](screenshots/tft-wide.png)
+
+On the phone: the controls, the live session, the route choice, and settings.
 
 <p>
-  <img src="screenshots/live.png" width="32%" alt="The projection session running">
-  <img src="screenshots/routes.png" width="32%" alt="Route alternatives with bend percentages">
-  <img src="screenshots/settings.png" width="32%" alt="Settings">
+  <img src="screenshots/controls.png" width="24%" alt="The dashboard controls page">
+  <img src="screenshots/live.png" width="24%" alt="The projection session running">
+  <img src="screenshots/routes.png" width="24%" alt="Route alternatives with bend percentages">
+  <img src="screenshots/settings.png" width="24%" alt="Settings">
 </p>
 
 Routes come in three flavours and the middle one is the point: **FUN** is the
