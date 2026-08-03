@@ -8,6 +8,24 @@ protocol: CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor, Morbidelli.
 
 Requires iOS 17 or later.
 
+## What it looks like
+
+The motorcycle's screen, mid-ride — speed, the next turn, the route and trip
+data, drawn by the phone and streamed to the dashboard:
+
+![The ride dashboard on a motorcycle TFT](screenshots/tft-dashboard.png)
+
+On the phone: the live session, the route choice, and settings.
+
+<p>
+  <img src="screenshots/live.png" width="32%" alt="The projection session running">
+  <img src="screenshots/routes.png" width="32%" alt="Route alternatives with bend percentages">
+  <img src="screenshots/settings.png" width="32%" alt="Settings">
+</p>
+
+Routes come in three flavours and the middle one is the point: **FUN** is the
+way with the most bends that does not cost much more time.
+
 ## Install
 
 You need **AltStore Classic** — not AltStore PAL. See the note below if you
