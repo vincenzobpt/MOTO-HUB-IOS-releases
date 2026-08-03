@@ -39,6 +39,15 @@
       ],
       "versions": [
         {
+          "version": "1.5",
+          "buildVersion": "15",
+          "date": "2026-08-03",
+          "localizedDescription": "Controls for the ride dashboard, and panels that can rotate through several widgets.\n\n• A Controls page with four glove-sized tiles: cycle the side panels, throw the map fullscreen, and step either panel's widget without looking at the motorcycle.\n• Tick two or more widgets for a panel and it rotates between them, from 3 seconds to a minute.\n• Fixed: the map did not grow into the space a hidden panel left, leaving black bands down the sides of the dashboard.",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.5/MOTO-HUB-1.5.ipa",
+          "size": 6370982,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.4",
           "buildVersion": "14",
           "date": "2026-08-03",
