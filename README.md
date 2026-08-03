@@ -20,8 +20,9 @@ already have PAL.
   three-app limit, and needs no computer to install or update. Get PAL at
   [altstore.io](https://altstore.io), then install AltStore Classic from inside it.
 - **With AltServer** on a Mac or PC, which works anywhere. Download it from
-  [altstore.io](https://altstore.io) and follow
-  [the setup guide](https://faq.altstore.io/altstore-classic/how-to-install-altstore-ios-windows).
+  [altstore.io](https://altstore.io) and follow the setup guide for
+  [macOS](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos)
+  or [Windows](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows).
 
 **2. Add this source** in AltStore Classic, under Browse → Sources → `+`:
 
