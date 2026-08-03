@@ -1,0 +1,43 @@
+{
+  "name": "MOTO-HUB",
+  "subtitle": "A ride dashboard for motorcycles with an EasyConn screen",
+  "description": "MOTO-HUB turns an iPhone into the navigation and ride display for motorcycles whose dashboard speaks the EasyConn/Carbit protocol — CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and others. The phone draws a map, speed, navigation and trip data and projects it onto the motorcycle's own screen.",
+  "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
+  "website": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases",
+  "tintColor": "#C8F240",
+  "apps": [
+    {
+      "name": "MOTO-HUB",
+      "bundleIdentifier": "io.motohub.ios",
+      "developerName": "Vincenzo Buonomano",
+      "subtitle": "Map, speed and navigation on your motorcycle's screen",
+      "localizedDescription": "MOTO-HUB projects a ride dashboard onto the screen built into your motorcycle.\n\nIt speaks the EasyConn protocol used by CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and Morbidelli dashboards. Pair by scanning the QR code the dashboard shows, and the phone takes over the display: a vector map, turn-by-turn navigation with spoken directions, speed, altitude, compass, weather, trip metrics and route elevation.\n\nWHAT YOU NEED\n\n• A motorcycle whose dashboard supports phone projection over Wi-Fi\n• iOS 17 or later\n\nBEFORE YOU INSTALL\n\nThis app is installed through AltStore and re-signed with your own Apple ID. One consequence is worth knowing in advance: joining the motorcycle's Wi-Fi automatically needs an entitlement a free Apple ID cannot carry. The app detects this, says so once, and everything else works — you join the motorcycle's network by hand in Settings, then press Connect.\n\nMaps, routing and search use free public services (OpenFreeMap, Valhalla, Photon, Open-Meteo, OpenStreetMap) and need no account. If you route often you can add your own Stadia Maps key in Settings; leaving it empty keeps the public server.\n\nThe motorcycle's Wi-Fi has no internet of its own, so map tiles travel over mobile data.\n\nNot affiliated with CFMOTO or any motorcycle manufacturer.",
+      "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
+      "tintColor": "#C8F240",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "1.3",
+          "buildVersion": "13",
+          "date": "2026-08-03",
+          "localizedDescription": "Rewritten dashboard transport, now entirely native.\n\n• Finds the dashboard reliably: the address is read from the Bonjour record rather than a hostname that does not resolve.\n• Fixes the greeting the dashboard reads, down to the byte.\n• A dashboard that answers but never connects back is now reported instead of looking connected.\n• The log says what the dashboard asked for and what it was actually sent, so a failure can be diagnosed from one file.\n• Optional Stadia Maps routing key in Settings.",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.3/MOTO-HUB-1.3.ipa",
+          "size": 6350496,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.developer.networking.HotspotConfiguration"
+        ],
+        "privacy": {
+          "NSCameraUsageDescription": "MOTO-HUB scans the pairing QR code shown on your motorcycle dashboard.",
+          "NSLocalNetworkUsageDescription": "MOTO-HUB connects to your motorcycle dashboard over the local network.",
+          "NSLocationWhenInUseUsageDescription": "MOTO-HUB uses your location for the ride dashboard and navigation."
+        }
+      }
+    }
+  ],
+  "news": []
+}
