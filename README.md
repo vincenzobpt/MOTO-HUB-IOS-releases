@@ -8,15 +8,41 @@ protocol: CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor, Morbidelli.
 
 Requires iOS 17 or later.
 
-## Install with AltStore
+## Install
 
-Add this source:
+You need **AltStore Classic** — not AltStore PAL. See the note below if you
+already have PAL.
+
+**1. Get AltStore Classic.** Two ways, pick whichever suits you:
+
+- **From AltStore PAL**, if you are in the EU, Japan or Brazil. PAL carries a
+  notarized build of Classic that never expires, does not count against your
+  three-app limit, and needs no computer to install or update. Get PAL at
+  [altstore.io](https://altstore.io), then install AltStore Classic from inside it.
+- **With AltServer** on a Mac or PC, which works anywhere. Download it from
+  [altstore.io](https://altstore.io) and follow
+  [the setup guide](https://faq.altstore.io/altstore-classic/how-to-install-altstore-ios-windows).
+
+**2. Add this source** in AltStore Classic, under Browse → Sources → `+`:
 
 ```
 https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/source.json
 ```
 
-Or download the IPA from [Releases](../../releases) and sideload it yourself.
+**3. Install MOTO-HUB** from the source and open it.
+
+Or skip AltStore entirely: download the IPA from [Releases](../../releases) and
+sideload it with a tool of your choice, such as Sideloadly.
+
+### "One or more apps are missing a marketplaceID"
+
+If you add this source to **AltStore PAL** instead of Classic, PAL rejects it
+with that message. Nothing is broken and there is nothing to fix in the source.
+
+PAL is an Apple-sanctioned marketplace, so it installs only apps that Apple has
+notarized, and notarization requires a paid Apple Developer account. These
+builds are deliberately unsigned so that anyone can install them for free —
+which is exactly what Classic is for. Add the source to AltStore Classic.
 
 ## What sideloading costs you
 
@@ -32,10 +58,15 @@ not this app's. Better to know them now than in a car park.
 - **A free Apple ID allows 3 sideloaded apps at a time**, across every app you
   have installed this way.
 
+One thing that is easy to misread: the notarized AltStore Classic you can get
+from PAL is itself exempt from the expiry and the three-app limit. Apps you
+install *through* it are not. MOTO-HUB is still signed with your Apple ID, so
+the 7 days and the limit apply to it.
+
 A paid Apple Developer account (99 €/year) raises the 7 days to a year and the
-limit to 100. AltStore PAL removes the Apple ID requirement entirely, but only
-in the EU, Japan and Brazil, and only for apps notarized by Apple — this app is
-not distributed that way today.
+limit to 100. Distributing through AltStore PAL would remove the Apple ID
+requirement for you entirely — but it needs that same paid account on our side,
+for Apple's notarization, so this app is not distributed that way today.
 
 ## One thing that will not work, and why
 
