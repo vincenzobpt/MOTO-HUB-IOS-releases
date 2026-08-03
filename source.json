@@ -15,7 +15,28 @@
       "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
       "tintColor": "#C8F240",
       "category": "utilities",
-      "screenshots": [],
+      "screenshots": [
+        {
+          "imageURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/screenshots/tft-dashboard.png",
+          "width": 800,
+          "height": 384
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/screenshots/live.png",
+          "width": 1206,
+          "height": 2520
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/screenshots/routes.png",
+          "width": 1206,
+          "height": 2622
+        },
+        {
+          "imageURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/screenshots/settings.png",
+          "width": 1206,
+          "height": 2622
+        }
+      ],
       "versions": [
         {
           "version": "1.4",
