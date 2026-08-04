@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.6",
+          "buildVersion": "16",
+          "date": "2026-08-04",
+          "localizedDescription": "A fix for dashboards that connect and show nothing.\n\nSome real dashboards tell the phone they cannot read the extra 4-byte frame index normally sent with every video frame. The phone agreed to drop it, then sent it anyway — the session looked connected while the dashboard's decoder choked on every frame, leaving the screen black or frozen.\n\nThe setting meant to honour that agreement was never wired up. It now follows the same rule the Android app uses: a recognised dashboard keeps the framing already proven on it, and only an unrecognised one is trusted to mean what it says about its own decoder.\n\nNot yet confirmed on a motorcycle. The in-app log now says which framing was chosen for your dashboard.",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.6/MOTO-HUB-1.6.ipa",
+          "size": 6376021,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.5",
           "buildVersion": "15",
           "date": "2026-08-03",
