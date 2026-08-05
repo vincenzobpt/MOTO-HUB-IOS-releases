@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.8",
+          "buildVersion": "18",
+          "date": "2026-08-05",
+          "localizedDescription": "A real fix for text fields that seemed unresponsive, and a shortcut to Settings when the app can't join Wi-Fi itself.\n\n• Fixed the network name and password fields: the shared component defaulted to a numbers-and-punctuation keyboard, wrong for an ordinary Wi-Fi name. Now uses a normal keyboard everywhere except the two fields that actually need digits.\n• Those fields are now larger, clearly bordered, and easier to hit — the password field finally matches the network name field instead of looking unfinished.\n• An Open Settings button appears when this build can't join Wi-Fi on its own, instead of leaving you to find the right screen yourself.\n• A clearer message when the scanned QR is CFMOTO/Carbit's app-download code rather than a pairing one — confirmed on a real Benelli TRK 702.",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.8/MOTO-HUB-1.8.ipa",
+          "size": 6383505,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.7",
           "buildVersion": "17",
           "date": "2026-08-05",
