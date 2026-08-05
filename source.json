@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.7",
+          "buildVersion": "17",
+          "date": "2026-08-05",
+          "localizedDescription": "Controls, a smoother map, and a clearer message when the wrong QR gets scanned.\n\n• Record button on the ride dashboard page, alongside Preview, Destination and Controls.\n• Camera tilt on the dashboard's live map — leans into a 40° perspective as speed picks up.\n• Voice guidance now actually stops when a ride ends, instead of continuing to announce turns with no visible connection to why.\n• The map's position no longer jumps once a second between GPS fixes — it now moves continuously, the same technique any turn-by-turn app uses.\n• Fixed a real bug that made the live map capture fail with \"already recording\" after backgrounding the app.\n• Some dashboards show only an app-download QR with no pairing code — scanning it now says so plainly and points at manual network entry, instead of sending you to look for a screen that does not exist.\n\nThe tilt, the smoother map motion and the capture fix depend on the live map preview actually running — not yet confirmed on a motorcycle.",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.7/MOTO-HUB-1.7.ipa",
+          "size": 6380238,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.6",
           "buildVersion": "16",
           "date": "2026-08-04",
