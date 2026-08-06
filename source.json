@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.9.1",
+          "buildVersion": "20",
+          "date": "2026-08-06",
+          "localizedDescription": "Finds motorcycles that don't announce themselves.\n\n• Some dashboards broadcast their Wi-Fi but never announce themselves on it — the app couldn't see them, and asked you to type an address you have no way of knowing. It now looks for your motorcycle on the network you're connected to.\n• If it still can't find it, the message names the two things worth checking: that Local Network is allowed in Settings › MOTO-HUB, and that your phone is joined to the motorcycle's Wi-Fi.\n\nNot tested on a motorcycle yet — let us know how it goes: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.9.1/MOTO-HUB-1.9.1.ipa",
+          "size": 6387156,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9",
           "buildVersion": "19",
           "date": "2026-08-06",
