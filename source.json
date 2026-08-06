@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.9.2",
+          "buildVersion": "21",
+          "date": "2026-08-06",
+          "localizedDescription": "Two fixes, both from rider reports.\n\n• The dashboard map was redrawn only 2.5 times a second while video went out at 30. It now redraws as fast as your phone can manage, and slows down on its own if the phone gets hot.\n• Opening Preview switched the motorcycle to mirroring your phone screen, and closing it didn't switch back — the dash kept showing the app instead of your dashboard. It does now.\n\nPreview mirrors your actual phone screen, so hold the phone in landscape while using it; in portrait the motorcycle gets a narrow strip with black bars. Your normal dashboard is unaffected.\n\nNot tested on a motorcycle yet — let us know how it goes: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.9.2/MOTO-HUB-1.9.2.ipa",
+          "size": 6388704,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.1",
           "buildVersion": "20",
           "date": "2026-08-06",
