@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.9",
+          "buildVersion": "19",
+          "date": "2026-08-06",
+          "localizedDescription": "Fixes getting stuck on \"my phone hosts the hotspot\".\n\n• If a connection failed once, the app could end up asking for a Personal Hotspot forever — even when the motorcycle's own Wi-Fi was working fine. It now looks for your dashboard either way.\n• If your hotspot is on but the dashboard won't join it, the app now reminds you to turn on Maximise Compatibility in Settings › Personal Hotspot.\n\nNot tested on a motorcycle yet — let us know how it goes: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.9/MOTO-HUB-1.9.ipa",
+          "size": 6384805,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.8",
           "buildVersion": "18",
           "date": "2026-08-05",
