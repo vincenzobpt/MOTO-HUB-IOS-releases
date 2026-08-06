@@ -1,7 +1,7 @@
 {
   "name": "MOTO-HUB",
   "subtitle": "A ride dashboard for motorcycles with an EasyConn screen",
-  "description": "MOTO-HUB turns an iPhone into the navigation and ride display for motorcycles whose dashboard speaks the EasyConn/Carbit protocol — CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and others. The phone draws a map, speed, navigation and trip data and projects it onto the motorcycle's own screen.",
+  "description": "MOTO-HUB turns an iPhone into the navigation and ride display for motorcycles whose dashboard speaks the EasyConn/Carbit protocol — CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and others. The phone draws a map, speed, navigation and trip data and projects it onto the motorcycle's own screen.\n\nQuestions, problems or feedback: https://discord.gg/q6tARNZz",
   "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
   "website": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases",
   "tintColor": "#C8F240",
