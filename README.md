@@ -99,6 +99,17 @@ entitlement, which a free Apple ID cannot carry. The app detects this, says so
 once, and everything else works normally: join the motorcycle's network by hand
 in Settings, then press Connect.
 
+## While you ride: dim the screen, don't lock it
+
+**Leave the phone unlocked and use the app's Dim button.** Locking the phone, or
+letting it sleep on its own, ends the connection: iOS takes the graphics and
+video hardware back the moment the screen goes off, and the motorcycle stops
+receiving anything.
+
+Dim blacks out the phone's own display while the dashboard keeps running, so it
+looks off, draws far less battery, and the ride carries on. Set Auto-Lock to
+Never in Settings > Display & Brightness while you use it.
+
 ## Maps and routing
 
 Maps, routing, search and weather use free public services — OpenFreeMap,
