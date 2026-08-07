@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.9.4",
+          "buildVersion": "23",
+          "date": "2026-08-07",
+          "localizedDescription": "Now spots the most common reason the app can't find your motorcycle: the phone quietly joined a hotspot instead.\n\niPhones remember networks and rejoin them on their own, and iOS never tells the app which one you're on — so being on a friend's hotspot, or your other phone's, looked exactly like being on the motorcycle. The app now recognises those networks and says so, instead of hunting for a dashboard that was never there.\n\nStuck, or it worked? Tell us: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.9.4/MOTO-HUB-1.9.4.ipa",
+          "size": 6390966,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.3",
           "buildVersion": "22",
           "date": "2026-08-07",
