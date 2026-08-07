@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.9.3",
+          "buildVersion": "22",
+          "date": "2026-08-07",
+          "localizedDescription": "When the app can't find your motorcycle, it now tells you why.\n\nInstead of just \"no dashboard found\", it checks the network you're on and says what it found: whether your motorcycle answered but isn't ready yet, or whether iOS is blocking the app from seeing it at all. Each comes with the one thing worth trying.\n\nStuck, or it worked? Tell us: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.9.3/MOTO-HUB-1.9.3.ipa",
+          "size": 6389619,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.2",
           "buildVersion": "21",
           "date": "2026-08-06",
