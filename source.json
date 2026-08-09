@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.10.0",
+          "buildVersion": "24",
+          "date": "2026-08-09",
+          "localizedDescription": "Your whole phone on the motorcycle's screen.\n\n**Screen mirroring** is a new mode, next to Ride Dashboard. Start it and whatever is on your phone shows up on the dashboard — Waze, Google Maps, anything you like — and it keeps going when you switch apps.\n\nThe first time, iOS shows you a list and asks what to broadcast: pick **MOTO-HUB Screen**. It only asks once.\n\n**Dim the phone.** A new button darkens the phone's screen while everything carries on. Press it before you switch to your navigation app. Locking the phone still ends the session, so use this instead.\n\n**Fixed: the route was drawn in the wrong place.** On the dashboard the line sat between the streets rather than on them — right under you, wrong everywhere else. It now follows the road, and the map scrolls more smoothly.\n\n**Can't join the motorcycle's Wi-Fi?** The app now shows you the network name and password it read from the QR code, ready to copy.\n\n**It tells you which dashboard it connected to**, so you can tell your motorcycle apart from anything else on the network.\n\nStuck, or it worked? Tell us: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.10.0/MOTO-HUB-1.10.0.ipa",
+          "size": 6455631,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.9.4",
           "buildVersion": "23",
           "date": "2026-08-07",
