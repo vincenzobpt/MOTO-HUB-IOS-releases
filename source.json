@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.12.0",
+          "buildVersion": "51",
+          "date": "2026-08-16",
+          "localizedDescription": "Navigation, properly.\n\n**A NAV section instead of a search box.** Tap NAV and you get a live map that grows when you start typing, your recent places, your favourites, and Home and Work. The app now has a proper bar at the bottom — Ride, NAV, Trips, Garage, Settings — instead of four unlabelled icons in a corner.\n\n**See the route before you commit to it.** Distance, time and arrival; the climb ahead as a profile you can drag and pinch; where the bends are and which stretch is the best one; every turn in a list. Tap anything and the map dives to it.\n\n**What's on the way.** Mountain passes with their height, fuel stops with how far off the road they are, speed cameras, and the weather **at the hour you'll actually get there** — \"rain from 42 km, in about 35 minutes\" — not the weather outside your window now.\n\n**Plan a ride with stops.** Search or tap the map to add them, drag to reorder. Or tap any road on the route map and it redraws to pass through there.\n\n**Places worth stopping at.** Fuel, food, coffee, viewpoints, motorcycle workshops and twenty more — on the map, tap one to ride there or keep it.\n\n**Follow a GPX.** Import one and ride it. Saved routes now show their actual shape, so you can tell last Sunday from last month at a glance.\n\n**When you arrive**, the app says so and offers to keep the place.\n\n**Also:** an About page with the version, the safety notice and the links — please read it — and clearer messages when something goes wrong: no signal, a busy free server, or a destination too far away now say so instead of showing the same line.\n\nStuck, or it worked? Tell us: https://discord.gg/q6tARNZz",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.12.0/MOTO-HUB-1.12.0.ipa",
+          "size": 6909709,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.10.0",
           "buildVersion": "24",
           "date": "2026-08-09",
