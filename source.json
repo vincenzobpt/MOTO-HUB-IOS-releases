@@ -1,7 +1,7 @@
 {
   "name": "MOTO-HUB",
   "subtitle": "A ride dashboard for motorcycles with an EasyConn screen",
-  "description": "MOTO-HUB turns an iPhone into the navigation and ride display for motorcycles whose dashboard speaks the EasyConn/Carbit protocol — CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and others. The phone draws a map, speed, navigation and trip data and projects it onto the motorcycle's own screen.\n\nQuestions, problems or feedback: https://discord.gg/q6tARNZz",
+  "description": "MOTO-HUB turns an iPhone into the navigation and ride display for motorcycles whose dashboard speaks the EasyConn/Carbit protocol — CFMOTO, Voge, Zontes, Moto Morini, Benelli, KOVE, QJ Motor and others. The phone draws a map, speed, navigation and trip data and projects it onto the motorcycle's own screen.\n\nQuestions, problems or feedback: https://discord.gg/q6tARNZz",
   "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
   "website": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases",
   "tintColor": "#C8F240",
@@ -11,7 +11,7 @@
       "bundleIdentifier": "io.motohub.ios",
       "developerName": "Vincenzo Buonomano",
       "subtitle": "Map, speed and navigation on your motorcycle's screen",
-      "localizedDescription": "MOTO-HUB projects a ride dashboard onto the screen built into your motorcycle.\n\nIt speaks the EasyConn protocol used by CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor and Morbidelli dashboards. Pair by scanning the QR code the dashboard shows, and the phone takes over the display: a vector map, turn-by-turn navigation with spoken directions, speed, altitude, compass, weather, trip metrics and route elevation.\n\nWHAT YOU NEED\n\n• A motorcycle whose dashboard supports phone projection over Wi-Fi\n• iOS 17 or later\n\nWHAT SIDELOADING COSTS YOU\n\nThese limits are Apple's, not this app's, and all three bite at the worst moment:\n\n• You sign in with your own Apple ID. AltStore uses it to sign the app on your device. Your credentials go to Apple, not to us — there is no server on our side.\n• The app stops working after 7 days unless AltStore refreshes it. Refreshing takes seconds over Wi-Fi, but it has to happen. Refresh before a long trip.\n• A free Apple ID allows 3 sideloaded apps at a time, across everything you have installed this way.\n\nA paid Apple Developer account raises the 7 days to a year and the limit to 100.\n\nONE THING THAT WILL NOT WORK\n\nJoining the motorcycle's Wi-Fi automatically needs an entitlement a free Apple ID cannot carry. The app detects this, says so once, and everything else works — join the motorcycle's network by hand in Settings, then press Connect.\n\nMaps, routing and search use free public services (OpenFreeMap, Valhalla, Photon, Open-Meteo, OpenStreetMap) and need no account. If you route often you can add your own Stadia Maps key in Settings; leaving it empty keeps the public server.\n\nThe motorcycle's Wi-Fi has no internet of its own, so map tiles travel over mobile data.\n\nNot affiliated with CFMOTO or any motorcycle manufacturer.\n\nWhile you ride, use the app's Dim button rather than locking the phone: iOS takes the video hardware back when the screen goes off, which ends the connection. Dim blacks out the phone and keeps the dashboard running.",
+      "localizedDescription": "MOTO-HUB projects a ride dashboard onto the screen built into your motorcycle.\n\nIt speaks the EasyConn protocol used by CFMOTO, Voge, Zontes, Moto Morini, Benelli, KOVE, QJ Motor and Morbidelli dashboards. Pair by scanning the QR code the dashboard shows, and the phone takes over the display: a vector map, turn-by-turn navigation with spoken directions, speed, altitude, compass, weather, trip metrics and route elevation.\n\nWHAT YOU NEED\n\n• A motorcycle whose dashboard supports phone projection over Wi-Fi\n• iOS 17 or later\n\nWHAT SIDELOADING COSTS YOU\n\nThese limits are Apple's, not this app's, and all three bite at the worst moment:\n\n• You sign in with your own Apple ID. AltStore uses it to sign the app on your device. Your credentials go to Apple, not to us — there is no server on our side.\n• The app stops working after 7 days unless AltStore refreshes it. Refreshing takes seconds over Wi-Fi, but it has to happen. Refresh before a long trip.\n• A free Apple ID allows 3 sideloaded apps at a time, across everything you have installed this way.\n\nA paid Apple Developer account raises the 7 days to a year and the limit to 100.\n\nONE THING THAT WILL NOT WORK\n\nJoining the motorcycle's Wi-Fi automatically needs an entitlement a free Apple ID cannot carry. The app detects this, says so once, and everything else works — join the motorcycle's network by hand in Settings, then press Connect.\n\nMaps, routing and search use free public services (OpenFreeMap, Valhalla, Photon, Open-Meteo, OpenStreetMap) and need no account. If you route often you can add your own Stadia Maps key in Settings; leaving it empty keeps the public server.\n\nThe motorcycle's Wi-Fi has no internet of its own, so map tiles travel over mobile data.\n\nNot affiliated with CFMOTO or any motorcycle manufacturer.\n\nWhile you ride, use the app's Dim button rather than locking the phone: iOS takes the video hardware back when the screen goes off, which ends the connection. Dim blacks out the phone and keeps the dashboard running.",
       "iconURL": "https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/motohub-icon.png",
       "tintColor": "#C8F240",
       "category": "utilities",
@@ -48,6 +48,15 @@
         }
       ],
       "versions": [
+        {
+          "version": "1.13.0",
+          "buildVersion": "52",
+          "date": "2026-08-20",
+          "localizedDescription": "KOVE motorcycles, and a real archive for your rides.\n\n**KOVE dashboards are now supported.** A KOVE doesn't connect like the others — it pairs over Bluetooth and then calls your phone, rather than waiting to be called. Until now MOTO-HUB searched the network for it and found nothing, forever. Scan the QR code on the dashboard as usual and the app recognises it and takes care of the rest. Say yes to the Bluetooth and Local Network prompts when they appear — without them the dashboard has no way to reach your phone.\n\n**Trips is an archive now, not a list.** Open Trips and you get your riding year at a glance, then your months, then the rides inside them. Search by name, sort by distance or date, and hold a ride to pick out several at once.\n\n**Tap a ride and it opens.** Before, nothing happened. Now you get the route drawn on a map you can open full screen, how far you went and how long it took, your average and top speed, how much you climbed, and the shape of the climb.\n\n**Deleting is no longer final.** Rides go to a trash and wait there 30 days. Clear out a whole month by mistake and there is an Undo right where you did it — and the trash is the only place anything is really gone for good.\n\n## Ride with us and tell us what breaks\n\nMOTO-HUB for iOS is young and it is tested by the people who use it. Every fix in the last month came from someone sending a log after a ride that went wrong.\n\nYou are especially welcome if you have a **KOVE** — or a Voge, Zontes, Benelli, QJ Motor, Moto Morini or Morbidelli, which are all supported and all thin on riders.\n\nIt costs you one message. Come and say which motorcycle you ride:\n**https://discord.gg/q6tARNZz**",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.13.0/MOTO-HUB-1.13.0.ipa",
+          "size": 7118640,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "1.12.0",
           "buildVersion": "51",
@@ -162,6 +171,7 @@
           "com.apple.developer.networking.HotspotConfiguration"
         ],
         "privacy": {
+          "NSBluetoothAlwaysUsageDescription": "KOVE motorcycle dashboards are paired over Bluetooth before they will show your phone's screen.",
           "NSCameraUsageDescription": "MOTO-HUB scans the pairing QR code shown on your motorcycle dashboard.",
           "NSLocalNetworkUsageDescription": "MOTO-HUB connects to your motorcycle dashboard over the local network.",
           "NSLocationWhenInUseUsageDescription": "MOTO-HUB uses your location for the ride dashboard and navigation."
