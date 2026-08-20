@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.17.0",
+          "buildVersion": "56",
+          "date": "2026-08-20",
+          "localizedDescription": "MOTO-HUB now speaks your language.\n\n**Six languages: English, Italiano, Español, Français, Português, 한국어.** The app follows your phone, or you can pick one yourself in Settings › Language. It changes everything at once — the screens, the turn-by-turn instructions, and the voice that reads them.\n\n**The voice stopped mixing languages.** It used to say \"in duecento **meters**\" — an Italian sentence with an English word in the middle of it. Distances are now spoken in the same language as everything else.\n\n**Your music comes back when the instruction ends.** It was dipping for a turn and then staying quiet until the *end of the next one*, half a minute later. That is fixed.\n\n**Pick the colour of your route.** Seven of them, in Settings › Route colour, and the one you choose shows on the phone map and on the motorcycle's screen. The new default is electric blue, because the old lime disappeared into the daytime map — the route is now readable on a light map for the first time.\n\n**The map stops spinning.** Zooming with gloves on could twist it by accident. Rotation is off; pinch still zooms.\n\n**Also:** clearer wording throughout, and the messages you see when a connection goes wrong now say what happened in your own language.\n\n## Thank you, SimoneSwitch\n\nEvery fix in this release — the stuck music, the half-English voice, the route lost in the daytime map, the map that spun on its own — came from one rider going out, paying attention, and writing it all down. **SimoneSwitch** on our Discord found all four in a single ride and described them precisely enough to fix. Thank you.\n\n## Ride with us and tell us what breaks\n\nThat is how this app gets better: someone rides, something is wrong, they say so. One message on Discord is all it takes.\n\nYou are especially welcome if you ride a **KOVE** — support for those dashboards shipped last week and we are still waiting for the first road report — or a Voge, Zontes, Benelli, QJ Motor, Moto Morini or Morbidelli.\n\n**https://discord.gg/q6tARNZz**",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.17.0/MOTO-HUB-1.17.0.ipa",
+          "size": 7511376,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.13.0",
           "buildVersion": "52",
           "date": "2026-08-20",
