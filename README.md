@@ -33,10 +33,10 @@ way with the most bends that does not cost much more time.
 
 ## Install
 
-You need **AltStore Classic** — not AltStore PAL. See the note below if you
-already have PAL.
+You need **AltStore Classic** or **SideStore** — not AltStore PAL. See the note
+below if you already have PAL.
 
-**1. Get AltStore Classic.** Two ways, pick whichever suits you:
+**1. Get AltStore Classic or SideStore.** Three ways, pick whichever suits you:
 
 - **From AltStore PAL**, if you are in the EU, Japan or Brazil. PAL carries a
   notarized build of Classic that never expires, does not count against your
@@ -46,8 +46,13 @@ already have PAL.
   [altstore.io](https://altstore.io) and follow the setup guide for
   [macOS](https://faq.altstore.io/altstore-classic/how-to-install-altstore-macos)
   or [Windows](https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows).
+- **With SideStore**, a fork of AltStore Classic that refreshes apps on the
+  phone itself. It still needs a computer once, to create a pairing file; after
+  that it renews MOTO-HUB over its own tunnel without one. Setup guide at
+  [sidestore.io](https://sidestore.io). Everything below applies to SideStore
+  exactly as it does to Classic — same source, same limits.
 
-**2. Add this source** in AltStore Classic, under Browse → Sources → `+`:
+**2. Add this source** in AltStore Classic or SideStore, under Browse → Sources → `+`:
 
 ```
 https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/source.json
@@ -55,7 +60,7 @@ https://raw.githubusercontent.com/vincenzobpt/MOTO-HUB-IOS-releases/main/source.
 
 **3. Install MOTO-HUB** from the source and open it.
 
-Or skip AltStore entirely: download the IPA from [Releases](../../releases) and
+Or skip the stores entirely: download the IPA from [Releases](../../releases) and
 sideload it with a tool of your choice, such as Sideloadly.
 
 ### "One or more apps are missing a marketplaceID"
@@ -66,19 +71,20 @@ with that message. Nothing is broken and there is nothing to fix in the source.
 PAL is an Apple-sanctioned marketplace, so it installs only apps that Apple has
 notarized, and notarization requires a paid Apple Developer account. These
 builds are deliberately unsigned so that anyone can install them for free —
-which is exactly what Classic is for. Add the source to AltStore Classic.
+which is exactly what Classic is for. Add the source to AltStore Classic or
+SideStore instead.
 
 ## What sideloading costs you
 
-These builds are **unsigned**, and AltStore re-signs them on your device. That is
-how sideloading works on iOS, and it comes with three limits that are Apple's,
-not this app's. Better to know them now than in a car park.
+These builds are **unsigned**, and AltStore or SideStore re-signs them on your
+device. That is how sideloading works on iOS, and it comes with three limits
+that are Apple's, not this app's. Better to know them now than in a car park.
 
-- **You sign in with your own Apple ID.** AltStore uses it to create a free
-  developer certificate. Your credentials go to Apple, not to us — we never see
-  them and have no server.
-- **The app stops working after 7 days** unless AltStore refreshes it. Refreshing
-  takes seconds over Wi-Fi, but it has to happen. Refresh before a long trip.
+- **You sign in with your own Apple ID.** AltStore and SideStore use it to create
+  a free developer certificate. Your credentials go to Apple, not to us — we
+  never see them and have no server.
+- **The app stops working after 7 days** unless it is refreshed. Refreshing takes
+  seconds over Wi-Fi, but it has to happen. Refresh before a long trip.
 - **A free Apple ID allows 3 sideloaded apps at a time**, across every app you
   have installed this way.
 
