@@ -1,0 +1,2 @@
+# Finder writes one of these into every directory it opens.
+.DS_Store
