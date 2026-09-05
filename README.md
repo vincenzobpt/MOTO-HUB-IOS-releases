@@ -2,11 +2,14 @@
 
 Pre-built IPAs and the AltStore source. **No source code here.**
 
-MOTO-HUB projects a ride dashboard — map, navigation, speed, trip data — onto the
-screen built into motorcycles whose dashboard speaks the EasyConn/Carbit
-protocol: CFMOTO, Voge, Zontes, Moto Morini, Benelli, QJ Motor, Morbidelli.
+MOTO-HUB turns your iPhone into the navigation and ride computer *for the screen
+already built into your motorcycle*. The phone does the work — maps, routing,
+sensors — and streams a dashboard to the bike's own display, over the
+EasyConn/Carbit protocol its panel already speaks: CFMOTO, Voge, Zontes, KOVE,
+Moto Morini, Benelli, QJ Motor, Morbidelli.
 
-Requires iOS 17 or later.
+No subscription, no account, no telemetry you did not ask for. Requires iOS 17
+or later.
 
 ## What it looks like
 
@@ -30,6 +33,41 @@ On the phone: the controls, the live session, the route choice, and settings.
 
 Routes come in three flavours and the middle one is the point: **FUN** is the
 way with the most bends that does not cost much more time.
+
+## What it does
+
+**On the motorcycle's screen**
+- A ride dashboard drawn by the phone: speed, the next turn, the route, trip data
+- Panels you choose and arrange — hide one and the map takes the space
+- Screen margins you can calibrate, so nothing is lost behind the bezel
+- Or mirror the phone itself, whole, when you want an app the dashboard has never heard of
+
+**Navigation**
+- Turn-by-turn with spoken guidance in your language
+- Three routes to choose from, and the middle one is the point: **FUN** is the way
+  with the most bends that does not cost much more time
+- Search, GPX in and out, waypoints, and a route you can hand to a ride you already made
+
+**What the map knows before you get there**
+- Speed limits, refreshed as you ride
+- Fuel prices along the route — national open data in Italy, Spain, Portugal and
+  France, stations from OpenStreetMap everywhere else
+- Speed camera alerts, where showing them is allowed: Germany, Switzerland, Austria, France
+- Mountain passes, points of interest, weather along the way
+- Maps that turn dark at sunset and light again in the morning
+
+**Rides worth keeping**
+- Records the track, and how it was ridden: lean, braking, corners
+- Voice notes pinned to the spot where you said them
+- Replay from above or from the saddle · export to Google Earth
+- Named after the places they ran between · joined together across a fuel stop
+- Ride any of them again as a route
+
+**Practical**
+- Eight languages: English, German, Dutch, French, Italian, Spanish, Portuguese, Korean
+- Dim the phone's screen while the dashboard keeps running
+- A dashboard MOTO-HUB has never met can be named by you, and the app works out the rest
+- A Support ID and a one-tap report when something goes wrong — see below
 
 ## Install
 
@@ -126,10 +164,19 @@ empty keeps the public server.
 The motorcycle's Wi-Fi has no internet of its own, so map data travels over
 mobile data.
 
-## Status
+## When something goes wrong
 
-The dashboard transport was rewritten from scratch for 1.3 and is young. If a
-motorcycle connects but shows nothing, the in-app log now records what the
-dashboard asked for and what it was actually sent — please attach it to an issue.
+Open **Settings ▸ Diagnostic reports**. There is a **Support ID** there — tap to
+copy it — and a **Send a report** button that packages everything needed to
+understand a fault: which phone, which dashboard, which versions, and the app's
+own log. *What gets sent* lists it before you decide, nothing leaves until you
+ask, and [what happens to it](PRIVACY.md) is written down.
+
+Quote your Support ID on Discord and your case can be found in seconds.
+
+**Come and break it with us:** MOTO-HUB for iOS is built in the open, with
+riders. Most of what is in the current release started as somebody's message.
+
+**https://discord.gg/jYv7Z2chtP**
 
 Not affiliated with CFMOTO or any motorcycle manufacturer.
