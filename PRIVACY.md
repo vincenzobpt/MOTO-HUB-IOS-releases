@@ -2,7 +2,7 @@
 
 This document describes the MOTO-HUB app for iOS only. It has not been reviewed by a lawyer.
 
-Last updated: 26 August 2026
+Last updated: 5 September 2026
 
 ---
 
@@ -20,9 +20,9 @@ No other party has access to anything described here.
 ## The short version
 
 - **You do not have an account.** The app has no login, no registration and no user profile — there is nothing to sign in to and nothing to delete.
-- **Your rides stay on your phone.** Tracks, trips, voice notes, saved motorcycles and the application log are stored on the device and are never uploaded. They leave only if you share them yourself, with iOS's own share sheet, to somewhere you chose.
+- **Your rides stay on your phone.** Tracks, trips, voice notes and saved motorcycles are stored on the device and are never uploaded. They leave only if you share them yourself, with iOS's own share sheet, to somewhere you chose.
 - **There is no advertising, no tracking and no profiling.** Nothing about you is sold, shared for marketing, or used to build a profile. The app does not track you across other apps or websites and does not ask for permission to, because it has no use for it.
-- **Two kinds of data do leave the phone**, and both are described in full below: your position, when a feature you asked for needs it, and diagnostic events when something goes wrong. The second can be switched off in the app.
+- **Three kinds of data can leave the phone**, and all three are described in full below: your position, when a feature you asked for needs it; diagnostic events when something goes wrong; and — only if you ask for it or turn it on — a diagnostic report carrying the application log. The last two can be switched off in the app, and the third is off until you turn it on.
 
 ## What stays on your phone
 
@@ -33,7 +33,7 @@ Held on the device, and not transmitted anywhere by the app:
 | Recorded rides: GPS track, speed, lean and braking measurements | The app's own storage |
 | Voice notes attached to a ride | The app's own storage |
 | Saved motorcycles and their settings | The app's own storage |
-| The application log — a technical record used to diagnose faults | The app's own storage |
+| The application log — a technical record used to diagnose faults | The app's own storage. It is uploaded only when you send a diagnostic report, or turn automatic reports on — see section 3 |
 | Wi-Fi passwords for motorcycle dashboards | The iOS Keychain |
 | A routing API key, if you choose to enter one | The iOS Keychain |
 
@@ -77,6 +77,55 @@ When something inside the app fails, the app sends a short technical note about 
 
 **How long it is kept:** Sentry deletes diagnostic events automatically when its retention period expires, at most 90 days after they are received.
 
+### 3. Diagnostic reports, to our own collector — off unless you turn it on
+
+A diagnostic report is the whole application log plus a description of your setup, sent to a
+collector we run ourselves, so that a fault you describe can be read rather than guessed at.
+
+**Nothing is sent unless you ask for it.** There are exactly three ways one leaves the phone:
+you tap **Send a report now** under Settings ▸ Diagnostic reports; you turn **Send reports
+automatically** on, which is off by default and then sends at most one a day, one after an update,
+and one after a crash; or you answer **Send the report** to the question the app asks on the launch
+after it has crashed. Turning the switch back off stops all of it.
+
+**What is sent:**
+
+- Your **Support ID** and device identifier. Both are one-way hashes of a random value made on your
+  phone. They are not your name, your phone number, your Apple ID, or anything derived from the
+  hardware — their only purpose is that two reports from the same phone can be recognised as such.
+- The **phone model** and the **iOS version**.
+- The **MOTO-HUB version** and your **app settings** — language, units, map style, which of the
+  optional features you have on.
+- What your **dashboard said about itself**: brand, model, firmware version, screen type, and the
+  network name of the motorcycle's Wi-Fi.
+- The **application log**, which is the same text the Log screen shows and the same file the share
+  button hands over.
+
+**What is never sent:** your position, your recorded rides, your voice notes, screenshots, photos,
+contacts, your dashboard's Wi-Fi password, or your phone's serial number, advertising identifier,
+Bluetooth address or Wi-Fi address. Passwords and keys are held in the iOS Keychain and are never
+read by the report.
+
+One honest caveat about the network name. Some dashboards put their own hardware address into the
+name of the Wi-Fi they broadcast — `ZT_e0082100e5ff_3` is one — so for those motorcycles the name
+we receive contains the dashboard's address. We do not read it, look it up or use it for anything
+but recognising which dashboard family you have, and we would rather say this than claim a
+guarantee the network name quietly breaks.
+
+**Where it goes:** a server we run ourselves inside the European Union. No third party receives it.
+
+**Legal basis (GDPR Art. 6(1)(a)):** your consent, given by sending a report or by turning the
+switch on, and withdrawable at any time by turning it off. Withdrawing it stops any further
+reports; it does not by itself delete the ones already sent — ask for that, see below.
+
+**How long it is kept:** reports are deleted automatically 90 days after they are received, except
+that the five most recent reports from any one installation are kept for as long as that
+installation keeps reporting.
+
+**How to have them deleted sooner:** open Settings ▸ Diagnostic reports, tap **Support ID** to copy
+it, and send it to **vincenzo@techub.eu** asking for the reports under it to be erased. The Support
+ID is the only way we can find them, because nothing in a report says who you are.
+
 ## What the app asks permission for, and why
 
 | Permission | Why |
@@ -98,7 +147,7 @@ The app is not directed at children and collects nothing knowingly from them.
 
 Under the GDPR you may ask for access to your data, its correction or erasure, a restriction on its processing, and you may object to processing based on legitimate interest. Because the app holds no account, most of your data is only ever on your own device and is under your control there.
 
-For diagnostic events, write to **vincenzo@techub.eu** and say so; you may also simply switch the setting off, which stops any further collection.
+For diagnostic events, write to **vincenzo@techub.eu** and say so; you may also simply switch the setting off, which stops any further collection. For diagnostic reports, quote your Support ID (Settings ▸ Diagnostic reports, tap it to copy) — without it a report cannot be traced back to you, which is the point of it and also the reason we need it to act on your request.
 
 You have the right to complain to a data protection authority. You may complain to the authority in the country where you live; the controller's own supervisory authority is Bulgaria's Commission for Personal Data Protection (`cpdp.bg`).
 
