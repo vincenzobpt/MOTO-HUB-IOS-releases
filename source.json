@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.34.2",
+          "buildVersion": "82",
+          "date": "2026-09-20",
+          "localizedDescription": "A follow-up to 1.34.1, an hour later, and everything in 1.34.1 comes with it.\n\n**Mount calibration works on phones where it never could.** On some iPhones iOS refuses to give the app orientation measured against true north — and when it refuses, it sends nothing at all, so the calibration screen kept showing MOVING even with the phone flat on a table. The app now asks for magnetic north instead, and for a plain orientation mode after that. Calibration works in all three cases.\n\n**Lean angle survives the fallback.** On magnetic north it picks up a couple of degrees of local declination, far too small to see. If even that is unavailable, lean is left blank rather than filled in with a number that would look right and be wrong. And once the app finds an orientation mode that works it remembers it, instead of spending a second failing every time the sensors start.\n\n**From 1.34.1:** the dashboard stays live with your phone locked in a pocket, Apple Maps is a choice for both your phone and the motorcycle's screen, routes can be told to avoid motorways, tolls and ferries, and average speed no longer counts time spent standing at lights as time spent riding — rides you have already recorded repair themselves on first launch.\n\n## Ride with us and tell us what breaks\n\nThis release exists because one rider sent a screenshot, then a log, then another log, and each one moved it forward.\n\n**https://discord.gg/jYv7Z2chtP**",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.34.2/MOTO-HUB-1.34.2.ipa",
+          "size": 8356059,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.34.1",
           "buildVersion": "81",
           "date": "2026-09-20",
