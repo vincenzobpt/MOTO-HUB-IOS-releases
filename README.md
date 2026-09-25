@@ -177,6 +177,6 @@ Quote your Support ID on Discord and your case can be found in seconds.
 **Come and break it with us:** MOTO-HUB for iOS is built in the open, with
 riders. Most of what is in the current release started as somebody's message.
 
-**https://discord.gg/jYv7Z2chtP**
+**https://discord.gg/FzhXZtPhC8**
 
 Not affiliated with CFMOTO or any motorcycle manufacturer.
