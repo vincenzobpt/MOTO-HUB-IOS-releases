@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.34.5",
+          "buildVersion": "85",
+          "date": "2026-09-25",
+          "localizedDescription": "**The Discord link works again.** The Discord button in About led nowhere because the old invite had expired. It now opens the MOTO-HUB server.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.34.5/MOTO-HUB-1.34.5.ipa",
+          "size": 8373240,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.34.4",
           "buildVersion": "84",
           "date": "2026-09-23",
