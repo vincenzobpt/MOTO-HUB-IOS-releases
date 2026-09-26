@@ -11,6 +11,10 @@ Moto Morini, Benelli, QJ Motor, Morbidelli.
 No subscription, no account, no telemetry you did not ask for. Requires iOS 17
 or later.
 
+🌐 **[motohub.techub.eu](https://motohub.techub.eu)** — the MOTO-HUB website:
+downloads for iPhone and Android, release notes, and the community dashboard
+gallery.
+
 ## What it looks like
 
 The motorcycle's screen, mid-ride — speed, the next turn, the route and trip
@@ -178,5 +182,8 @@ Quote your Support ID on Discord and your case can be found in seconds.
 riders. Most of what is in the current release started as somebody's message.
 
 **https://discord.gg/FzhXZtPhC8**
+
+News and release notes for every MOTO-HUB app are also on
+**[motohub.techub.eu](https://motohub.techub.eu)**.
 
 Not affiliated with CFMOTO or any motorcycle manufacturer.
