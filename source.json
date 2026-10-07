@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.34.7",
+          "buildVersion": "87",
+          "date": "2026-10-07",
+          "localizedDescription": "**Your dashboard stays right, and your ride stats stay real.** The dashboard map now points the right way with Apple Maps and the screen off, the video recovers by itself if it breaks after unlocking your phone, and top speed, lean angle and g-forces are no longer thrown off by lost GPS signals (rides you already recorded are corrected too). The connection to your dashboard is also steadier from one ride to the next.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.34.7/MOTO-HUB-1.34.7.ipa",
+          "size": 8385126,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.34.5",
           "buildVersion": "85",
           "date": "2026-09-25",
