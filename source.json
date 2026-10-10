@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.34.8",
+          "buildVersion": "88",
+          "date": "2026-10-10",
+          "localizedDescription": "**Dashboards that pair over Bluetooth now connect.** Some dashboards, like the one on the Keeway XDV 125, are set up over Bluetooth and keep their Wi-Fi password to themselves: MOTO-HUB now finds them, picks up the Wi-Fi details by itself and connects.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.34.8/MOTO-HUB-1.34.8.ipa",
+          "size": 8386702,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.34.7",
           "buildVersion": "87",
           "date": "2026-10-07",
