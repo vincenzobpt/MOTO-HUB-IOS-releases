@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.35.0",
+          "buildVersion": "89",
+          "date": "2026-10-18",
+          "localizedDescription": "**Phone as a dashboard, offline rerouting and new widgets.** Use your iPhone itself as a dashboard with up to three widgets, find the way back with no signal, and add Roadbook, Curve radar and a north-up Mini-map. Importing a GPX route no longer freezes the app, and Connect joins the saved dashboard Wi-Fi after a bike restart.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.35.0/MOTO-HUB-1.35.0.ipa",
+          "size": 8536564,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.34.8",
           "buildVersion": "88",
           "date": "2026-10-10",
