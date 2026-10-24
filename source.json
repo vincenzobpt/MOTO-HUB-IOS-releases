@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.1",
+          "buildVersion": "92",
+          "date": "2026-10-24",
+          "localizedDescription": "**Suzuki and Ducati fix.** MOTO-HUB now finds a SUZUKI mySPIN or Ducati Connect motorcycle that is paired with your iPhone; in 1.36.0 it could not see the bike at all. The connection also no longer goes wrong if Transport in the Garage was changed for these bikes.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.1/MOTO-HUB-1.36.1.ipa",
+          "size": 8630254,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.0",
           "buildVersion": "91",
           "date": "2026-10-24",
