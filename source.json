@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.0",
+          "buildVersion": "91",
+          "date": "2026-10-24",
+          "localizedDescription": "**Suzuki and Ducati.** MOTO-HUB now works with SUZUKI mySPIN (GSX-S1000GT, GSX-S1000GX) and Ducati Connect (Multistrada V4): pair the bike in the iPhone's Bluetooth settings, then tap \"Suzuki or Ducati with mySPIN?\" on the pairing screen. On these bikes OK switches the side panels and up and down change the widgets. Also new: CarPlay on the dashboard (experimental, in Settings) and a Trash row on the Trips page. Fixed a short glitch in the dashboard picture.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.0/MOTO-HUB-1.36.0.ipa",
+          "size": 8626153,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.35.1",
           "buildVersion": "90",
           "date": "2026-10-19",
