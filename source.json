@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.3",
+          "buildVersion": "94",
+          "date": "2026-10-25",
+          "localizedDescription": "**Suzuki and Ducati.** The motorcycle no longer loses the picture when you lock your iPhone or switch to another app. The map keeps going on the dashboard with the phone in your pocket.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.3/MOTO-HUB-1.36.3.ipa",
+          "size": 8636029,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.2",
           "buildVersion": "93",
           "date": "2026-10-25",
