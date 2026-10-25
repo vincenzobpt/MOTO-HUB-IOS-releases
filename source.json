@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.2",
+          "buildVersion": "93",
+          "date": "2026-10-25",
+          "localizedDescription": "**Suzuki and Ducati.** If your iPhone will not join the motorcycle's Wi-Fi by itself, MOTO-HUB now shows the network name and password so you can join it by hand. The password can be copied, and the connection carries on as soon as your phone is on that network.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.2/MOTO-HUB-1.36.2.ipa",
+          "size": 8635464,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.1",
           "buildVersion": "92",
           "date": "2026-10-24",
