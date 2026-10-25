@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.4",
+          "buildVersion": "95",
+          "date": "2026-10-25",
+          "localizedDescription": "**Suzuki and Ducati.** If the picture source sends nothing for three seconds, MOTO-HUB switches to its own map instead of leaving the dashboard blank. This happened with CarPlay on the dashboard switched on and no CarPlay receiver app running.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.4/MOTO-HUB-1.36.4.ipa",
+          "size": 8636244,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.3",
           "buildVersion": "94",
           "date": "2026-10-25",
