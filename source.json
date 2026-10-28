@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.36.5",
+          "buildVersion": "96",
+          "date": "2026-10-28",
+          "localizedDescription": "**BMW.** MOTO-HUB now works with the BMW Motorrad 10.25\" TFT in Map mode. Pair the bike in the iPhone's Bluetooth settings, then tap \"Suzuki, Ducati or BMW with mySPIN?\" on the pairing screen.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.36.5/MOTO-HUB-1.36.5.ipa",
+          "size": 8659265,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.4",
           "buildVersion": "95",
           "date": "2026-10-25",
