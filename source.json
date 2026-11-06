@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.0",
+          "buildVersion": "97",
+          "date": "2026-11-06",
+          "localizedDescription": "**Kove with EyLink.** MOTO-HUB now connects to Kove dashboards that use EyLink. Scan the code on the dashboard's connection screen. Some dashboards join your Personal Hotspot: enter its name and password for the bike in the Garage.\n\n**Navigation.** Speed limits now work on your route and off it. Speed cameras, mountain passes and places on the map load more reliably, and places come from Apple first.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.0/MOTO-HUB-1.37.0.ipa",
+          "size": 8749225,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.36.5",
           "buildVersion": "96",
           "date": "2026-10-28",
