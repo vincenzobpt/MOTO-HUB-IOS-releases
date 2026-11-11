@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.1",
+          "buildVersion": "98",
+          "date": "2026-11-11",
+          "localizedDescription": "**Kove with EyLink.** Dashboards that create their own Wi-Fi network now connect. Connection problems now show up in the diagnostics report.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.1/MOTO-HUB-1.37.1.ipa",
+          "size": 8750233,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.0",
           "buildVersion": "97",
           "date": "2026-11-06",
