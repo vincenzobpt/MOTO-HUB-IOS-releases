@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.2",
+          "buildVersion": "99",
+          "date": "2026-11-11",
+          "localizedDescription": "**Simpler first screen.** One button to scan your dashboard's QR code.\n\n**Kove with EyLink over Bluetooth.** MOTO-HUB now asks for your iPhone's Personal Hotspot after the scan. Garage changes apply right away.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.2/MOTO-HUB-1.37.2.ipa",
+          "size": 8785107,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.1",
           "buildVersion": "98",
           "date": "2026-11-11",
