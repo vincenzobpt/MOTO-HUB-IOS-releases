@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.4",
+          "buildVersion": "101",
+          "date": "2026-11-16",
+          "localizedDescription": "**KOVE 625X support.** MOTO-HUB now recognises the 625X dashboard by its Wi-Fi name and connects with the right settings, also for bikes already in your Garage.\n\n**Benelli and QJ dashboards.** The connection no longer drops after about 16 minutes of riding.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.4/MOTO-HUB-1.37.4.ipa",
+          "size": 8791028,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.3",
           "buildVersion": "100",
           "date": "2026-11-13",
