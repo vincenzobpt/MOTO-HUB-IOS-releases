@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.5",
+          "buildVersion": "102",
+          "date": "2026-11-16",
+          "localizedDescription": "**KOVE 625X.** The app now reaches the dashboard after you join its Wi-Fi. In 1.37.4 it recognised the bike but never got an answer from it.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.5/MOTO-HUB-1.37.5.ipa",
+          "size": 8790477,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.4",
           "buildVersion": "101",
           "date": "2026-11-16",
