@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.6",
+          "buildVersion": "103",
+          "date": "2026-11-18",
+          "localizedDescription": "**EyLink dashboards (KTEY).** The QR code of dashboards such as the Aveta Vanguard 250 V2 is no longer rejected. If yours was, scan it again.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.6/MOTO-HUB-1.37.6.ipa",
+          "size": 8791302,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.5",
           "buildVersion": "102",
           "date": "2026-11-16",
