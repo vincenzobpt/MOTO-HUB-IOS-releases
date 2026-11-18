@@ -6,7 +6,7 @@ MOTO-HUB turns your iPhone into the navigation and ride computer *for the screen
 already built into your motorcycle*. The phone does the work — maps, routing,
 sensors — and streams a dashboard to the bike's own display, over the
 EasyConn/Carbit protocol its panel already speaks: CFMOTO, Voge, Zontes, KOVE,
-Moto Morini, Benelli, QJ Motor, Morbidelli.
+Moto Morini, Benelli, QJ Motor, Morbidelli, Rieju.
 
 No subscription, no account, no telemetry you did not ask for. Requires iOS 17
 or later.
