@@ -183,6 +183,8 @@ riders. Most of what is in the current release started as somebody's message.
 
 **https://discord.gg/FzhXZtPhC8**
 
+And now on Facebook: like and follow **https://www.facebook.com/motohub.techub.eu/**, and share your own MOTO-HUB experiences there.
+
 News and release notes for every MOTO-HUB app are also on
 **[motohub.techub.eu](https://motohub.techub.eu)**.
 
