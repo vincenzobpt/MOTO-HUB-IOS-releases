@@ -49,6 +49,15 @@
       ],
       "versions": [
         {
+          "version": "1.37.7",
+          "buildVersion": "104",
+          "date": "2026-11-23",
+          "localizedDescription": "**Six more languages:** Czech, Turkish, Russian, Polish, Thai and Simplified Chinese, the same 14 as Android.\n\n**KOVE 625X and other Yunmo dashboards:** no more black TFT after the link drops.\n\nWebsite: https://motohub.techub.eu — join the iOS test on Discord: https://discord.gg/FzhXZtPhC8",
+          "downloadURL": "https://github.com/vincenzobpt/MOTO-HUB-IOS-releases/releases/download/v1.37.7/MOTO-HUB-iOS.ipa",
+          "size": 8674581,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "1.37.6",
           "buildVersion": "103",
           "date": "2026-11-18",
